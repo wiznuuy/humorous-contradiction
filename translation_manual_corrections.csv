@@ -1,0 +1,12 @@
+image_id,subject_id,reason,old_translated_reason,new_translated_reason,correction_details
+00147,P033,누구를 위한 정리인지,Who is this organization for?,Who is this tidying up for?,"'정리' here is tidying a bed, not an organization"
+00260,P036,신호등의무가치,The value of traffic lights.,The worthlessness of traffic lights.,"parsed as 신호등의 의무 가치; peers say the empty-street signal is pointless, so 무가치"
+00118,P063,파먹음벌ㅈ레,It seems like there might be a typo or a misunderstanding in the text you provided. Could you please clarify or provide more context?,Bugs ate into it.,"model returned a refusal; typo-ridden 파먹음 + 벌레, image shows insects on picnic food"
+00226,P063,다따라함,Dattaraham,Everyone just copies it.,model transliterated it as 'Dattaraham' instead of translating 다 따라 함
+00312,P077,양,Sheep,The portion size.,"'양' here is quantity - the image contrasts a big plate with a tiny portion, not a sheep"
+00236,P083,여적여,"This phrase does not have a direct translation or clear meaning in English. It appears to be a play on words or a specific cultural reference that may not be easily understood without additional context. If you can provide more context or clarify the intended meaning, I would be happy to help with a more accurate translation.",Women are women's worst enemy.,model returned a refusal instead of a translation; slang for 여자의 적은 여자
+00073,P105,나열의불일지,The list of discrepancies.,The inconsistency in what is listed.,'The list of discrepancies' inverts the meaning of 나열의 불일치
+00252,P105,택이 생겼음,I got a pimple.,A clothing tag showed up.,"'택' is a clothing tag, not 여드름; image is about a garment label"
+00091,P131,사람이 다니기 편하게 눈을 치우는데 정작 사람이 자나가지 못하게 위협하는 중,"While clearing the snow for people to walk comfortably, it ironically poses a threat that prevents them from actually sleeping.","It clears the snow so people can walk comfortably, yet ends up threatening the very people trying to pass by.",'자나가지' is a typo for 지나가지 (pass by); machine read it as sleeping
+00333,P154,"우승인줄, 기상","I thought it was a victory, but it turned out to be a weather report.",I thought it was a win - it was just getting out of bed.,"'기상' here is waking up, not a weather report; peers describe 침대에서의 승리"
+00181,P165,구형모니터를 사용함,Using a CRT monitor.,Using an old-model monitor.,"'구형' means old model, not specifically a CRT"
