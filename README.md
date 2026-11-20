@@ -1,4 +1,4 @@
-# Human and AI Interpretations of Humorous Contradictions (IJHCI)
+# Human and AI Interpretations of Humorous Contradictions
 
 This repository contains the response dataset accompanying our work on how people and vision-language
 models interpret visual humor. The dataset is organized around annotations of two-panel *YesBut*
@@ -265,12 +265,12 @@ verbatim.
 > Hu, Z., Liang, T., Li, J., Lu, Y., Zhou, Y., Qiao, Y., Ma, J., & Yin, Y. (2024). *Cracking the
 > Code of Juxtaposition: Can AI Models Understand the Humorous Contradictions?* NeurIPS 2024.
 > [arXiv:2405.19088](https://arxiv.org/abs/2405.19088)
-
+<!--
 ## Citation
-
+-->
 <!-- TODO before release: mint a DOI by depositing on OSF or Zenodo, then fill in the placeholders
      and add a DOI badge at the top of this file. -->
-
+<!-- 
 If you use this dataset, please cite our article and the dataset deposit, and also the underlying
 benchmark (Hu et al., 2024, above):
 
@@ -291,7 +291,7 @@ benchmark (Hu et al., 2024, above):
   doi       = {TODO}
 }
 ```
-
+-->
 ## License
 
 <!-- TODO before release: confirm with your institution, then delete this comment. -->
@@ -305,9 +305,3 @@ text stay under the upstream benchmark's
 [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/) terms and reach you from the
 upstream source via `scripts/`; anything you generate by running them is governed by that license,
 not this one. `image_transform.csv` records measurements of those images, not the images themselves.
-
-## Contact
-
-TODO — corresponding author name and email.
-<!-- Omit until after review if the journal uses anonymous peer review: naming the authors or an
-     identifying repository can break anonymity. -->
