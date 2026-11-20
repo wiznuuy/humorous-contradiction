@@ -1,4 +1,4 @@
-# Human and AI Interpretations of Humorous Contradictions (IJHCI)
+# Human and AI Interpretations of Humorous Contradictions
 
 This repository contains the response dataset accompanying our work on how people and vision-language
 models interpret visual humor. The dataset is organized around annotations of two-panel *YesBut*
