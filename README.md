@@ -191,11 +191,8 @@ prompts, analysis code, and API and error logs. The first three are regenerable 
 
 ## Ethics and Privacy
 
-<!-- Anonymous review: no institution or approval number below. After acceptance, restore the
-     committee's full name and the approval number, which journals normally require. -->
-
-The study was reviewed and approved by the institutional review board of the authors' university.
-All participants gave informed consent, which covered public sharing of the research data.
+The study was reviewed and approved by the Institutional Review Board. All participants gave informed consent, which covered public sharing of the
+research data.
 
 Direct identifiers were replaced with pseudonymous IDs. Phone numbers, dates of birth,
 participant-level timestamps, demographic records, and the private identifier mapping are not
@@ -215,33 +212,35 @@ re-identifying content, and none is expected.
 > Hu, Z., Liang, T., Li, J., Lu, Y., Zhou, Y., Qiao, Y., Ma, J., & Yin, Y. (2024). *Cracking the
 > Code of Juxtaposition: Can AI Models Understand the Humorous Contradictions?* NeurIPS 2024.
 > [arXiv:2405.19088](https://arxiv.org/abs/2405.19088)
-<!--
+<!-- Restore for v1.0.1, once the Zenodo DOI exists and author names are decided.
+     Fill in the author names, the dataset DOI, and the concept-DOI badge at the top of this file.
+     Replace the @unpublished entry with the published article after acceptance.
+
 ## Citation
--->
-<!-- TODO before release: mint a DOI by depositing on OSF or Zenodo, then fill in the placeholders
-     and add a DOI badge at the top of this file. -->
-<!-- 
-If you use this dataset, please cite our article and the dataset deposit, and also the underlying
-benchmark (Hu et al., 2024, above):
+
+If you use this dataset, please cite the dataset deposit and the accompanying manuscript, and also
+the underlying benchmark (Hu et al., 2024, above). The manuscript is currently under review; until
+it appears, the dataset DOI is the citable, persistent reference.
 
 ```bibtex
-@article{TODO_study_key,
-  author  = {TODO},
-  title   = {Are We Seeing the Same Humor? Comparing Human and AI Interpretations of Humorous Contradictions},
-  journal = {International Journal of Human--Computer Interaction},
-  year    = {TODO},
-  doi     = {TODO}
-}
-
 @dataset{TODO_dataset_key,
   author    = {TODO},
   title     = {Human and AI Interpretations of Humorous Contradictions},
-  year      = {TODO},
-  publisher = {TODO (Zenodo / OSF)},
+  year      = {2026},
+  publisher = {Zenodo},
+  version   = {v1.0.0},
   doi       = {TODO}
+}
+
+@unpublished{TODO_study_key,
+  author = {TODO},
+  title  = {Are We Seeing the Same Humor? Comparing Human and AI Interpretations of Humorous Contradictions},
+  year   = {2026},
+  note   = {Manuscript submitted for publication}
 }
 ```
 -->
+
 ## License
 
 <!-- TODO before release: confirm with your institution, then delete this comment. -->
@@ -255,3 +254,4 @@ text stay under the upstream benchmark's
 [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/) terms and reach you from the
 upstream source via `scripts/`; anything you generate by running them is governed by that license,
 not this one. `image_transform.csv` records measurements of those images, not the images themselves.
+
